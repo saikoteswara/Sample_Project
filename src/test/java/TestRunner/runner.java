@@ -21,9 +21,9 @@ public class runner {
 		WebDriver driver = new ChromeDriver(chromeOptions);
 		
 		//WebDriver driver = new ChromeDriver(chromeOptions);
-		driver.get("pasing arg 2"+url);
+		driver.get(url);
 		//driver.get("https://www.airtel.in/recharge/prepaid/");
-		System.out.println(path);
+		System.out.println("passing the second arg"+path);
 		driver.quit();
 	}
 }
