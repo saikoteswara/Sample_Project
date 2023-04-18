@@ -56,6 +56,10 @@
 		<suiteXmlFiles>
 			<suiteXmlFile>testng.xml</suiteXmlFile>
 		</suiteXmlFiles>
+		<systemPropertyVariables>
+			<sai>${browserurl}</sai>
+			<koteswara>${print}</koteswara>
+		</systemPropertyVariables>
 	</configuration>
 		</plugin>
 		</plugins>
